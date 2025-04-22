@@ -4,7 +4,6 @@ import restaurantImg from './re.jfif';
 import ec from './ec.jfif';
 import app from './app.jfif';
 
-
 const { TabPane } = Tabs;
 
 const projects = [
@@ -15,8 +14,8 @@ const projects = [
     description:
       "Developed a modern and responsive website for a hotel booking system with user-friendly interface to manage room bookings, availability, and customer details.",
     technologies: ["HTML", "CSS", "JavaScript"],
-    image:
-      "https://public.readdy.ai/ai/img_res/883c03feea7e900c4245bc103240ebdf.jpg",
+    image: "https://public.readdy.ai/ai/img_res/883c03feea7e900c4245bc103240ebdf.jpg",
+    link: "https://github.com/nbeany/Hotel-booking",
   },
   {
     id: 9,
@@ -25,8 +24,8 @@ const projects = [
     description:
       "Created an interactive dashboard for real-time Bitcoin price monitoring with historical data analysis, trend visualization, and predictive analytics features.",
     technologies: ["React", "Node.js", "D3.js", "WebSocket API"],
-    image:
-      "https://public.readdy.ai/ai/img_res/8c91ca6d48996cbfa611f98596961e2e.jpg",
+    image: "https://public.readdy.ai/ai/img_res/8c91ca6d48996cbfa611f98596961e2e.jpg",
+    link: "https://github.com/nbeany/Data",
   },
   {
     id: 10,
@@ -35,8 +34,8 @@ const projects = [
     description:
       "Developed a comprehensive dashboard for Apple stock market data analysis with interactive charts, historical performance metrics, and comparison tools.",
     technologies: ["React", "ECharts", "REST API", "Redux"],
-    image:
-      "https://public.readdy.ai/ai/img_res/9fad9a2cf916cc2502f88475ba84d74b.jpg",
+    image: "https://public.readdy.ai/ai/img_res/9fad9a2cf916cc2502f88475ba84d74b.jpg",
+    link: "https://github.com/nbeany/Data",
   },
   {
     id: 11,
@@ -45,8 +44,8 @@ const projects = [
     description:
       "Built a scalable fraud detection system using big data technologies to analyze transaction patterns and identify suspicious activities in real-time.",
     technologies: ["Apache Spark", "Hadoop", "Machine Learning", "Python"],
-    image:
-      "https://public.readdy.ai/ai/img_res/c34fb0d8e88ceb3d22f1112ac8811106.jpg",
+    image: "https://public.readdy.ai/ai/img_res/c34fb0d8e88ceb3d22f1112ac8811106.jpg",
+    link: "https://your-link.com/fraud-detection",
   },
   {
     id: 12,
@@ -56,8 +55,8 @@ const projects = [
       "Designed and developed a fully responsive e-commerce website with modern UI/UX, featuring product listings, shopping cart functionality, and seamless checkout integration.",
     technologies: ["html", "css3", "Bootstrap", "javascript"],
     image: ec,
+    link: "https://luxe-store-flax.vercel.app",
   },
-  
   {
     id: 13,
     title: "Apple website clone",
@@ -66,8 +65,8 @@ const projects = [
       "Cloned the official Apple website with pixel-perfect design, smooth animations, and responsive layout using modern frontend technologies to mimic the original user experience.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
     image: app,
+    link: "https://github.com/nbeany/Apple-clone",
   },
-  
   {
     id: 14,
     title: "Small Restaurant Website",
@@ -76,8 +75,8 @@ const projects = [
       "Created a responsive restaurant website with an elegant design, digital menu, reservation form, and interactive user interface to enhance the customer experience.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
     image: restaurantImg,
+    link: "https://github.com/nbeany/Restaurant",
   },
-  
 ];
 
 const Projects: React.FC = () => {
@@ -131,12 +130,13 @@ const Projects: React.FC = () => {
                           </Tag>
                         ))}
                       </div>
-                      {/* <Button
+                      <Button
                         type="primary"
                         className="!rounded-button whitespace-nowrap mt-4 bg-gradient-to-r from-indigo-500 to-purple-600 border-none hover:opacity-90"
+                        onClick={() => window.open(project.link, "_blank")}
                       >
-                        View Details
-                      </Button> */}
+                        View Project
+                      </Button>
                     </Card>
                   ))}
               </div>
