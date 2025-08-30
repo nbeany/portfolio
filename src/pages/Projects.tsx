@@ -3,6 +3,7 @@ import { Tabs, Card, Tag, Button } from 'antd';
 import restaurantImg from './re.jfif';
 import ec from './ec.jfif';
 import app from './app.jfif';
+import net from './net.jfif';
 
 const { TabPane } = Tabs;
 
@@ -60,10 +61,10 @@ const projects = [
   {
     id: 13,
     title: "Apple website clone",
-    category: "Frontend",
+    category: "Fullstack",
     description:
       "Cloned the official Apple website with pixel-perfect design, smooth animations, and responsive layout using modern frontend technologies to mimic the original user experience.",
-    technologies: ["HTML", "CSS", "JavaScript", "React"],
+    technologies: ["HTML", "CSS", "JavaScript", "React" , "Node.js" , "MySQL"],
     image: app,
     link: "https://github.com/nbeany/Apple-clone",
   },
@@ -77,6 +78,16 @@ const projects = [
     image: restaurantImg,
     link: "https://github.com/nbeany/Restaurant",
   },
+  {
+  id: 15,
+  title: "Netflix Clone",
+  category: "Fullstack",
+  description:"Developed a Netflix Clone web application with React, TMDB API, and Firebase. Features include dynamic movie listings, trailer playback, user authentication, and responsive UI design.",
+  technologies: ["React", "JavaScript", "TMDB API", "Firebase", "CSS"],
+  image: net,
+  link: "https://netflix-clone-6dnm-al8ng4sej.vercel.app",
+},
+
 ];
 
 const Projects: React.FC = () => {
