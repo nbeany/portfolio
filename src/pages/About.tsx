@@ -18,7 +18,7 @@ const About: React.FC = () => {
             />
           </div>
           <div>
-            <h3 className="text-2xl font-bold mb-4 text-gray-800">Who I Am</h3>
+            <h3 className="text-2xl font-bold mb-4 text-gray-800">Who I Am ?</h3>
             <p className="text-gray-700 mb-6 leading-relaxed">
               I'm a dedicated frontend developer currently pursuing my Bachelor's degree in Software Engineering at Addis Ababa University in Ethiopia. I'm passionate about creating responsive web applications and integrating frontend interfaces with backend systems.
             </p>

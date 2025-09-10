@@ -5,6 +5,8 @@ import ec from './ec.jfif';
 import app from './app.jfif';
 import net from './net.jfif';
 import amazon from './amazon.jpg';
+import boss from './boss.jpg';
+import run from './run.jpg';
 const { TabPane } = Tabs;
 
 const projects = [
@@ -98,6 +100,27 @@ const projects = [
   image: net,
   link: "https://netflix-clone-6dnm-al8ng4sej.vercel.app",
 },
+{
+  id: 16,
+  title: "Boss Electronics Website",
+  category: "Frontend",
+  description:
+    "Developed a brand-focused website for Boss Electronics, highlighting the company’s dedication to innovation, product reliability, and performance. Designed a clean and modern interface to showcase products and communicate the brand’s mission of delivering honest, high-quality technology without unnecessary marketing fluff.",
+  technologies: ["React", "CSS", "JavaScript"],
+  image: boss,
+  link: "https://boss-electronics-kofw.vercel.app",
+},
+{
+  id: 17,
+  title: "Rehoboth International Athletics Website",
+  category: "Frontend",
+  description:
+    "Created a professional website for Rehoboth International Athletics, an organization representing elite athletes worldwide. The platform highlights the agency’s mission to connect top sporting talent with global opportunities that transcend sport, with a clean and modern design to reflect professionalism and trust.",
+  technologies: ["React", "CSS", "JavaScript"],
+  image: run,
+  link: "https://new-xi-taupe.vercel.app",
+},
+
 
 ];
 

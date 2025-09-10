@@ -28,7 +28,7 @@ const Home: React.FC<HomeProps> = ({ scrollToSection }) => {
             transition={{ duration: 1.2 }}
           >
             <span className="block">Hi, I'm Abreham Nigus</span>
-            <span className="block text-xl md:text-3xl mt-2">Frontend Developer & Big Data Processing</span>
+            <span className="block text-xl md:text-3xl mt-2">Web Developer & Junior Data Engineer</span>
           </motion.h1>
 
           {/* Sub Heading with Motion */}
