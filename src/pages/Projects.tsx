@@ -16,7 +16,7 @@ const projects = [
     "Built a full-featured Amazon clone with React for the frontend and Express for the backend. Integrated Firebase for authentication and database management, and implemented secure online payments using Chapa. The platform allows users to browse products, add items to cart, and complete purchases in a seamless e-commerce experience.",
   technologies: ["React", "Express", "Firebase", "Chapa"],
   image: amazon,
-  link: "https://github.com/nbeany/amazon-clone",
+  link: "https://e-585b2.web.app",
 },
 
   {
