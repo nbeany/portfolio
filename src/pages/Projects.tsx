@@ -4,10 +4,21 @@ import restaurantImg from './re.jfif';
 import ec from './ec.jfif';
 import app from './app.jfif';
 import net from './net.jfif';
-
+import amazon from './amazon.jpg';
 const { TabPane } = Tabs;
 
 const projects = [
+  {
+  id: 7,
+  title: "Amazon Clone",
+  category: "Full Stack",
+  description:
+    "Built a full-featured Amazon clone with React for the frontend and Express for the backend. Integrated Firebase for authentication and database management, and implemented secure online payments using Chapa. The platform allows users to browse products, add items to cart, and complete purchases in a seamless e-commerce experience.",
+  technologies: ["React", "Express", "Firebase", "Chapa"],
+  image: amazon,
+  link: "https://github.com/nbeany/amazon-clone",
+},
+
   {
     id: 8,
     title: "Hotel Booking Website",
