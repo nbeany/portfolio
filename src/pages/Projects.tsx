@@ -11,9 +11,9 @@ const projects = [
   {
   id: 7,
   title: "Amazon Clone",
-  category: "Full Stack",
+  category: "Fullstack",
   description:
-    "Built a full-featured Amazon clone with React for the frontend and Express for the backend. Integrated Firebase for authentication and database management, and implemented secure online payments using Chapa. The platform allows users to browse products, add items to cart, and complete purchases in a seamless e-commerce experience.",
+    "Built a full-featured Amazon clone with React for the frontend and Express for the backend. Integrated Firebase for authentication and database management, and implemented secure online payments using Chapa.",
   technologies: ["React", "Express", "Firebase", "Chapa"],
   image: amazon,
   link: "https://e-585b2.web.app",
@@ -75,7 +75,7 @@ const projects = [
     category: "Fullstack",
     description:
       "Cloned the official Apple website with pixel-perfect design, smooth animations, and responsive layout using modern frontend technologies to mimic the original user experience.",
-    technologies: ["HTML", "CSS", "JavaScript", "React" , "Node.js" , "MySQL"],
+    technologies: [ "CSS", "React" , "Node.js" , "MySQL"],
     image: app,
     link: "https://github.com/nbeany/Apple-clone",
   },
